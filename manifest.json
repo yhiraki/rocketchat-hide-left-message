@@ -1,0 +1,12 @@
+{
+  "name": "RocketChat hide left message",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "RocketChat hide left message",
+  "content_scripts": [{
+    "matches": ["https://*.rocket.chat/*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
